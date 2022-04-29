@@ -10,6 +10,8 @@ java {
 
 dependencies {
 	api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1'
+	// maven artifact downloader dependency
+	implementation 'com.squareup.tools.build:maven-archeologist:0.0.3.1'
 	// r8 dependency
 	implementation 'com.android.tools:r8:3.3.28'
 	implementation project(path: ':lib-eclipse')
